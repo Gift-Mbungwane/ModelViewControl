@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  modelviewcontrol:
+    image: modelviewcontrol
+    build:
+      context: .
+      dockerfile: ./Dockerfile
